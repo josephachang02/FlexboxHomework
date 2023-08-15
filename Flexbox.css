@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+}
+
+.head {
+
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    height: 600px;
+    width: 700px;
+}
+#intro {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerList {
+    display:inline;
+    justify-content: flex-start;
+    float: left;
+}
+
+div>h2 {
+    font-weight: bolder;
+}
+
+.images {
+    display:flex;
+}
