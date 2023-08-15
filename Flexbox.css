@@ -2,15 +2,19 @@ body {
     background-color: antiquewhite;
 }
 
-.head {
+.navbar {
+    background-color:red;
+    color: white;
+    display: inline-block;
+    justify-content: space-around;
 
 }
 
 .container {
-    display:flex;
-    justify-content: center;
-    height: 600px;
-    width: 700px;
+   grid-template-column: 3fr, 1fr;
+
+    height: 200px;
+    width: 200px;
 }
 #intro {
     align-items: center;
